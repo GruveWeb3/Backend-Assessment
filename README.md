@@ -48,7 +48,7 @@ This task will evaluate your skills in backend development, API security, testin
   - **Response:**
     ```json
     {
-      "id": 1,
+      "id": cmskdj00002, //cuid
       "name": "Sample Event",
       "location": "Venue A",
       "start_time": "2025-02-10T10:00:00Z",
@@ -62,7 +62,7 @@ This task will evaluate your skills in backend development, API security, testin
     ```json
     [
       {
-        "id": 1,
+        "id": cmskdj00002, //cuid
         "name": "Sample Event",
         "location": "Venue A",
         "start_time": "2025-02-10T10:00:00Z",
@@ -76,7 +76,7 @@ This task will evaluate your skills in backend development, API security, testin
   - **Response:**
     ```json
     {
-      "id": 1,
+      "id": cmskdj00002, //cuid
       "name": "Sample Event",
       "location": "Venue A",
       "start_time": "2025-02-10T10:00:00Z",
@@ -98,7 +98,7 @@ This task will evaluate your skills in backend development, API security, testin
   - **Response:**
     ```json
     {
-      "id": 1,
+      "id": cmskdj00002, //cuid
       "name": "Updated Event Name",
       "location": "Updated Venue",
       "start_time": "2025-02-12T10:00:00Z",
@@ -133,7 +133,7 @@ This task will evaluate your skills in backend development, API security, testin
   - **Response:**
     ```json
     {
-      "id": 1,
+      "id": cmskdj00002, //cuid
       "title": "Task 1",
       "assigned_to": [1, 2],
       "due_time": "2025-02-10T11:00:00Z",
@@ -148,7 +148,7 @@ This task will evaluate your skills in backend development, API security, testin
     ```json
     [
       {
-        "id": 1,
+        "id": cmskdj00002, //cuid
         "title": "Task 1",
         "assigned_to": [1, 2],
         "due_time": "2025-02-10T11:00:00Z",
@@ -162,7 +162,7 @@ This task will evaluate your skills in backend development, API security, testin
   - **Response:**
     ```json
     {
-      "id": 1,
+      "id": cmskdj00002, //cuid
       "title": "Task 1",
       "assigned_to": [1, 2],
       "due_time": "2025-02-10T11:00:00Z",
@@ -185,7 +185,7 @@ This task will evaluate your skills in backend development, API security, testin
   - **Response:**
     ```json
     {
-      "id": 1,
+      "id": cmskdj00002, //cuid
       "title": "Updated Task 1",
       "assigned_to": [1],
       "due_time": "2025-02-12T12:00:00Z",
@@ -223,7 +223,7 @@ This task will evaluate your skills in backend development, API security, testin
 ### **Testing Requirements:**
 
 - **Test coverage**:
-  - The candidate should write unit and integration tests for the API using a framework such as **Jest**, **Mocha**, or **Jasmine**.
+  - The candidate should write unit and integration tests for the  **Jest** API
   - The tests should cover at least the following scenarios:
     - Successful and failed user authentication
     - CRUD operations for events (create, read, update, delete)
@@ -237,7 +237,7 @@ This task will evaluate your skills in backend development, API security, testin
 
 ### **Additional Requirements:**
 
-- **Database**: Use any ORM (e.g., Sequelize, TypeORM) with a relational database (e.g., PostgreSQL, MySQL) for data management.
+- **Database**: Prisma and Postgres
 - **Validation**: Use input validation for the data (e.g., using **Joi**, **express-validator**, or similar libraries).
 - **Code quality**: The code should be well-structured, readable, and maintainable.
 - **Error handling**: Proper error messages with appropriate HTTP status codes (e.g., `400`, `404`, `500`).
